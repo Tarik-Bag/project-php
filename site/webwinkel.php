@@ -43,7 +43,7 @@ $all_users = $stmt->fetchAll();
                     <td> <?php echo $user["email"] ?> </td>
                     <td> <?php echo $user["password"] ?> </td>
                     <td> <?php echo $user["ip_address"] ?> </td>
-                    <td> <a href="users_show.php?id= <?php echo $user["id"] ?>"> Bekijk Detail </a> </td>
+                    <td> <a href="users_show.php?id=<?php echo $user["id"] ?>"> Bekijk Detail </a> </td>
                 </tr>
 
             <?php } ?>
